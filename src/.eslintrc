@@ -3,13 +3,17 @@
   "env": {
     "es6": true,
     "browser": true,
-    "node": false
+    "node": true
   },
   "rules": {
     "semi": "off",
     "arrow-parens": "off",
     "comma-dangle": "off",
-    "require-jsdoc": "off"
+    "require-jsdoc": "off",
+    "spaced-comment" : "off",
+    "no-debugger": "off",
+    "no-trailing-spaces": "off",
+    "eslint-disable-next-line max-len": "off"
   },
   "extends": ["eslint:recommended", "google"]
 }
